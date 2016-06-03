@@ -1,5 +1,8 @@
 class Book
-	attr_reader :title
+	#attr_reader :title
+	def title
+		@title
+	end
 
 	def title=(name)
 		arr = name.split(' ')
