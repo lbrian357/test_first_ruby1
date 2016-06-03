@@ -1,4 +1,3 @@
-vowels = ['a', 'e','i','o','u']
 def translate(str)
 	new_str = []
 	sep_str = str.split(' ')
